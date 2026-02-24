@@ -1,0 +1,18 @@
+base_url = "https://attackpointsecurity.com"
+title = "AttackPointSecurity"
+description = "Personal blog — cybersecurity, cloud infrastructure, and engineering."
+compile_sass = true
+generate_feeds = true
+feed_filenames = ["atom.xml", "rss.xml"]
+theme = "zolanight"
+
+taxonomies = [
+    { name = "tags" },
+]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra.zolanight]
+theme = "tokyonight"
+home_list_latest_blog_posts = true

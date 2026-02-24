@@ -1,1 +1,4 @@
 .direnv/
+public/
+.claude/
+

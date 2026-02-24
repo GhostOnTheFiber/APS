@@ -20,16 +20,9 @@
         devShells.default = pkgs.mkShell {
           buildInputs = with pkgs; [
             # Add packages here
-            python313
-            uv
-            zlib
-            pqrs
-            clickhouse
             claude-code
             codex
-            duckdb
-            podman-compose
-            podman-tui
+            zola
             just
           ];
 
